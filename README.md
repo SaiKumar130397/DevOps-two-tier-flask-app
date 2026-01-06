@@ -136,7 +136,7 @@
 
 ## **Step - 5: Test webhooks and access the app**
 
-- Push something to your repo. A build will trigger and images will build for successful pipeline.
+- Any git push to the main/dev branch of the configured GitHub repository will automatically trigger the Jenkins pipeline, which will build the new Docker image and deploy the updated application,
 - Check for the images and containers using:
 
 ```bash
